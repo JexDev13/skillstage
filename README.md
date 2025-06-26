@@ -30,7 +30,7 @@ ng serve
 
 ```
 
-Luego accede a la aplicación en: http://localhost:4200
+Luego accede a la aplicación en: http://localhost:4200.
 La app se recarga automáticamente al detectar cambios en los archivos fuente.
 
 ## 🛠️ Generar componentes
@@ -51,4 +51,4 @@ Los archivos compilados se encontrarán en el directorio dist/.
 
 ## 📄 Licencia
 Este proyecto está licenciado bajo la Licencia Pública General de GNU v3.0 (GPL-3.0).
-Consulta el archivo [LICENSE](https://skillstage.github.io) para más información.
+Consulta el archivo [LICENSE](https://github.com/JexDev13/skillstage/blob/09bb8c1c779dc16ee774eb2136361e5c7d1fa71d/LICENSE) para más información.
