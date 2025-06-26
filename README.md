@@ -1,59 +1,54 @@
-# Skillstage
+# SkillStage
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.2.1.
+SkillStage es una aplicación web desarrollada en Angular que tiene como propósito apoyar el aprendizaje del idioma inglés para jóvenes del Centro de Educación Continua (CEC) de la EPN. Esta plataforma está diseñada para estudiantes del nivel académico 2 (equivalente a B2) y se enfoca en brindar una experiencia interactiva, accesible y centrada en la usabilidad.
 
-## Development server
+## 🚀 V1.0
 
-To start a local development server, run:
+- ✅ Navegación centralizada: acceso a todas las temáticas de práctica desde un único menú.
+- ✅ Actividades interactivas: incluye ejercicios de selección, arrastre, escritura y audio.
+- ✅ Retroalimentación inmediata: al finalizar cada actividad, se ofrece una explicación de errores y aciertos.
+- ✅ Interfaz amigable: diseño intuitivo y fácil de usar para estudiantes.
+- ✅ Apoyo gramatical: incluye explicaciones teóricas sobre los temas trabajados.
+- ✅ Seguimiento del progreso: guarda automáticamente el avance del usuario y lo muestra en su perfil.
 
-```bash
+---
+
+## 🔗 Enlace 
+[SkillStage](https://skillstage.github.io)
+
+## 📦 Cómo clonar el proyecto
+
+```
+git clone https://github.com/tu-usuario/skillstage.git
+cd skillstage
+npm install
+```
+
+## 🖥️ Iniciar servidor de desarrollo
+```
 ng serve
+
 ```
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+Luego accede a la aplicación en: http://localhost:4200
+La app se recarga automáticamente al detectar cambios en los archivos fuente.
 
-## Code scaffolding
+## 🛠️ Generar componentes
+Angular CLI permite generar fácilmente nuevos componentes:
+```
+ng generate component nombre-componente
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
-
-```bash
-ng generate component component-name
 ```
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+## 🏗️ Compilar el proyecto
 
-```bash
-ng generate --help
 ```
+ng build --configuration production
 
-## Building
-
-To build the project run:
-
-```bash
-ng build
 ```
+Los archivos compilados se encontrarán en el directorio dist/.
 
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
 
-## Running unit tests
-
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
-
-```bash
-ng test
-```
-
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+## 📄 Licencia
+Este proyecto está licenciado bajo la Licencia Pública General de GNU v3.0 (GPL-3.0).
+Consulta el archivo [LICENSE](https://skillstage.github.io) para más información.
